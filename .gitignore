@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+
+# Packed output
+*.tgz
+
+# Logs
+*.log
+
+# Editors and OS
+.DS_Store
+.idea/
+.vscode/
+*.swp

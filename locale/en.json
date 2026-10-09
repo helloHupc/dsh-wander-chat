@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Roaming Sessions",
+    "description": "Adds a \"New roaming session\" row under New Session in the sidebar: start a session without picking a local folder, with every roaming session grouped under one configurable fixed workspace."
+  }
+}

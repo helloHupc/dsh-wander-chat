@@ -1,0 +1,13 @@
+# Bundle patch layer: one Host row. The row's module half exports both the
+# Host plugin (index.js) and the browser bundle (client.js, exported as
+# "./client"), so a single entry carries the ensure route, its Config schema,
+# and the sidebar entry that starts a roaming Session.
+#
+# `root` is the one directory every roaming Session works in; it is created on
+# demand. `title` is the Workspace group label the sidebar shows for it.
+- insert:
+    - id: dsh-wander-chat
+      name: 'dsh-wander-chat'
+      config:
+        root: '~/.dsh/wander-chat'
+        title: '漫游会话'
